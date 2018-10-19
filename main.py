@@ -25,7 +25,6 @@ def main(*args):
   l = list(args)
   i = 0
   for c in l:
-    #print('l[{}] = {}'.format(i,type(c)))
     if type(c) == str:
       if (not c.isdigit() and not c.isalpha()) or c.isalpha():
         return "Ошибка! Неверный формат ввода {}".format(c)
