@@ -8,7 +8,7 @@ def unique_funk(lst):
             while i < len(resultLs):
                 if resultLs[i] == l:
                     flag = 1
-                i += 1;
+                i += 1
             if (flag == 0):
                 resultLs.append(l)
             flag = 0
